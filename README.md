@@ -423,7 +423,7 @@ git log --graph --oneline
 
 Open your repository on GitHub in a browser and inspect the commit history.
 
-## Submission
+## 15. Submission
 
 Before submitting the assignment, verify that:
 
