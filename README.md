@@ -434,7 +434,9 @@ Before submitting the assignment, verify that:
 * Your repository contains the `update-info` branch.
 * Your repository history shows the branch and merge activity from this assignment.
 
-Submit the URL of your GitHub repository through Moodle.
+Submit the URL of your GitHub repository through Moodle. 
+
+> **Extra Credit:** You can receive up to 5 points of extra credit by submitting a pull request with a significant correction or improvement to this assignment. Minor errors, such as spelling or punctuation mistakes, may receive 1 point, while more significant corrections or improvements may receive additional credit.
 
 ## Issues and Pull Requests
 
