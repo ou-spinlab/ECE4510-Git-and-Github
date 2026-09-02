@@ -435,3 +435,40 @@ Before submitting the assignment, verify that:
 * Your repository history shows the branch and merge activity from this assignment.
 
 Submit the URL of your GitHub repository through Moodle.
+
+## Issues and Pull Requests
+
+GitHub also provides tools for discussing issues and proposing changes to a repository. We will use these tools for this assignment and throughout the course.
+
+### Issues
+
+If you encounter a problem with this assignment, create an **Issue** in the original repository:
+
+https://github.com/ou-spinlab/ECE4510-Git-and-Github/issues
+
+Before creating a new issue, check whether another student has already reported the same problem. If so, you can add additional information to the existing issue instead of creating a duplicate.
+
+When creating an issue:
+
+* Use a short, descriptive title.
+* Clearly describe the issue and what you were trying to do.
+* Include any relevant information (e.g., error messages, terminal output, etc...).
+* If you are referring to a specific line or lines in a file, include a **permalink** to those lines rather than copying and pasting the contents. To create a permalink on GitHub:
+
+  1. Open the file in the GitHub browser interface and view the file in **Code** view.
+  2. Click a line number to select a single line. To select multiple lines, click the first line number and then hold `Shift` while clicking the last line number.
+  3. Open the menu next to the selected line(s) and select **Copy permalink**.
+  4. Paste the link into your issue.
+
+  A permalink points to the specific version and lines of the file, making it easier for others to see exactly what you are referring to.
+
+> **Important:** Do not include passwords, private SSH keys, access tokens, or any sensitive information in an issue.
+
+### Pull Requests
+
+If you identify an error in the assignment or repository, such as a typo, incorrect command, or unclear instruction, you are encouraged to correct it and submit a **Pull Request** to the original repository.
+
+A pull request proposes that changes from your fork be incorporated into the original repository. You can do this by (i) making the correction in your fork, (ii) commit and push the change to your fork, and (iii) open a pull request on GitHub.
+
+In the pull request, you should briefly describe what you changed and why you changed it.
+
