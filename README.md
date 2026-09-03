@@ -10,8 +10,6 @@ The Git commands used in this assignment are the same on Windows, macOS, and Lin
 
 > **Note:** For this assignment, you should use the command line for Git operations, but you may use the Git tools built into your text editor or IDE for future assignments.
 
----
-
 ## Resources
 
 If you are new to Git, you may find the following resources helpful:
