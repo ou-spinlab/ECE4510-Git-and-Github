@@ -385,7 +385,7 @@ Check the repository status:
 git status
 ```
 
-Change this to: Even though you fixed the conflict in the file, the merge is not complete until the file is staged and committed.
+Even though you fixed the conflict in the file, the merge is not complete until the file is staged and committed.
 
 Stage the resolved file:
 
