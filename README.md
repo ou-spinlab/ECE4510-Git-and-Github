@@ -385,21 +385,13 @@ Check the repository status:
 git status
 ```
 
-Git still lists `student.txt` under **Unmerged paths** as `both modified`. Editing the
-file does not tell Git that the conflict is resolved; you mark it as resolved by staging it.
+Change this to: Even though you fixed the conflict in the file, the merge is not complete until the file is staged and committed.
 
 Stage the resolved file:
 
 ```console
 git add student.txt
 ```
-
-Check the status again:
-
-```console
-git status
-```
-Git should now report that all conflicts are fixed but that you are still merging.
 
 Complete the merge by creating a commit:
 
@@ -470,48 +462,10 @@ When creating an issue:
 
 If you identify an error in the assignment or repository, such as a typo, incorrect command, or unclear instruction, you are encouraged to correct it and submit a **Pull Request** to the original repository.
 
-A pull request proposes that changes from your fork be incorporated into the original
-repository.
+A pull request proposes that changes from your fork be incorporated into the original repository. You can do this by (i) making the correction in your fork, (ii) commit and push the change to your fork, and (iii) open a pull request on GitHub.
 
-At this point, your fork's `main` branch contains `student.txt` with your name and email
-address. If you open a pull request from `main`, those commits are included in the proposed
-changes. A pull request should contain only the change you are proposing, so create your
-branch from the original repository rather than from `main`.
+If your fork contains changes from completing the assignment, make sure your pull request includes only the correction you intend to submit. You may need to create a separate branch based on the original repository's main branch.
 
-First, add the original repository as a second remote named `upstream`:
+Your new branch now matches the original repository.
 
-```
-git remote add upstream git@github.com:ou-spinlab/ECE4510-Git-and-Github.git
-```
-
-You can confirm that both remotes are configured:
-
-```
-git remote -v
-```
-
-Download the current state of the original repository and create a branch from it:
-
-```
-git fetch upstream
-git checkout -b fix-readme upstream/main
-```
-
-Your new branch now matches the original repository and does not contain `student.txt`.
-Make your correction, then commit and push the branch to your fork:
-
-```
-git add README.md
-git commit -m "briefly describe the correction"
-git push -u origin fix-readme
-```
-
-Open your fork on GitHub. It should offer to open a pull request from `fix-readme`. Set the
-base repository to `ou-spinlab/ECE4510-Git-and-Github` and the base branch to `main`.
-
-Before submitting, open the **Files changed** tab and confirm that only the files you
-intended to change are listed. If `student.txt` appears, your branch was created from the
-wrong starting point.
-
-In the pull request, you should briefly describe what you changed and why you changed it.
-
+After you push your changes to your repository, you can open your fork on GitHub and open a pull request. In the pull request, you should briefly describe what you changed and why you changed it.
