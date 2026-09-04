@@ -385,18 +385,12 @@ Check the repository status:
 git status
 ```
 
-Git should indicate that the conflict has been resolved but the merge still needs to be completed.
+Even though you fixed the conflict in the file, the merge is not complete until the file is staged and committed.
 
 Stage the resolved file:
 
 ```console
 git add student.txt
-```
-
-Check the status again:
-
-```console
-git status
 ```
 
 Complete the merge by creating a commit:
@@ -470,5 +464,8 @@ If you identify an error in the assignment or repository, such as a typo, incorr
 
 A pull request proposes that changes from your fork be incorporated into the original repository. You can do this by (i) making the correction in your fork, (ii) commit and push the change to your fork, and (iii) open a pull request on GitHub.
 
-In the pull request, you should briefly describe what you changed and why you changed it.
+If your fork contains changes from completing the assignment, make sure your pull request includes only the correction you intend to submit. You may need to create a separate branch based on the original repository's main branch.
 
+Your new branch now matches the original repository.
+
+After you push your changes to your repository, you can open your fork on GitHub and open a pull request. In the pull request, you should briefly describe what you changed and why you changed it.
